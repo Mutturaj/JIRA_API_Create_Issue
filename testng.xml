@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" allow-return-values="true">
+    <test verbose="2" preserve-order="true" name="C:\Users\Welcome\IdeaProjects\Demo">
+        <classes>
+
+            <class name="Programes.Ascii"></class>
+
+        </classes>
+
+    </test> <!-- testng -->
+</suite> <!-- Default Suite -->
