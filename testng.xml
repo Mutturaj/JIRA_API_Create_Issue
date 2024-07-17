@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" allow-return-values="true">
+<!--<suite name="All Test Suite" allow-return-values="true">-->
+    <suite name="Parallel Test Suite" thread-count="2" parallel="methods" >
     <test verbose="2" preserve-order="true" name="C:\Users\Welcome\IdeaProjects\Demo">
         <classes>
 
-            <class name="Programes.Ascii"></class>
-
+            <class name="Website.profileUpdate"></class>
+<!--            <class name="Website.linkedin"></class>-->
+<!--            <class name="Website.generic_methods"></class>-->
         </classes>
 
     </test> <!-- testng -->
